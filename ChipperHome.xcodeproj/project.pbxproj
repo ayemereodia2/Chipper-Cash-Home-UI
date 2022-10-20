@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041A970429009CA1003DC098 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A970329009CA1003DC098 /* SceneDelegate.swift */; };
+		041A97062900ACBB003DC098 /* ButtomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A97052900ACBB003DC098 /* ButtomView.swift */; };
 		044F238D28FF8B5600749FEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F238C28FF8B5600749FEA /* AppDelegate.swift */; };
-		044F238F28FF8B5600749FEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F238E28FF8B5600749FEA /* SceneDelegate.swift */; };
-		044F239128FF8B5600749FEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F239028FF8B5600749FEA /* ViewController.swift */; };
-		044F239428FF8B5600749FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044F239228FF8B5600749FEA /* Main.storyboard */; };
+		044F239128FF8B5600749FEA /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F239028FF8B5600749FEA /* ContainerViewController.swift */; };
 		044F239628FF8B5800749FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044F239528FF8B5800749FEA /* Assets.xcassets */; };
 		044F239928FF8B5800749FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044F239728FF8B5800749FEA /* LaunchScreen.storyboard */; };
+		04679DCF2900BDFA00EE8C90 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04679DCE2900BDFA00EE8C90 /* Colors.swift */; };
+		04679DD12900C16400EE8C90 /* EarnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04679DD02900C16400EE8C90 /* EarnViewController.swift */; };
+		04679DD32900C17600EE8C90 /* InvestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04679DD22900C17600EE8C90 /* InvestViewController.swift */; };
+		04679DD52900C18500EE8C90 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04679DD42900C18500EE8C90 /* CardViewController.swift */; };
+		04E85639290097B9004C5D35 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E85638290097B9004C5D35 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041A970329009CA1003DC098 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		041A97052900ACBB003DC098 /* ButtomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtomView.swift; sourceTree = "<group>"; };
 		044F238928FF8B5600749FEA /* ChipperHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChipperHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		044F238C28FF8B5600749FEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		044F238E28FF8B5600749FEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		044F239028FF8B5600749FEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		044F239328FF8B5600749FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044F239028FF8B5600749FEA /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		044F239528FF8B5800749FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044F239828FF8B5800749FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		044F239A28FF8B5800749FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04679DCE2900BDFA00EE8C90 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		04679DD02900C16400EE8C90 /* EarnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnViewController.swift; sourceTree = "<group>"; };
+		04679DD22900C17600EE8C90 /* InvestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestViewController.swift; sourceTree = "<group>"; };
+		04679DD42900C18500EE8C90 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		04E85638290097B9004C5D35 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,28 @@
 		044F238B28FF8B5600749FEA /* ChipperHome */ = {
 			isa = PBXGroup;
 			children = (
+				04679DCD2900BDCB00EE8C90 /* UIKit+Extensions */,
+				041A970329009CA1003DC098 /* SceneDelegate.swift */,
 				044F238C28FF8B5600749FEA /* AppDelegate.swift */,
-				044F238E28FF8B5600749FEA /* SceneDelegate.swift */,
-				044F239028FF8B5600749FEA /* ViewController.swift */,
-				044F239228FF8B5600749FEA /* Main.storyboard */,
+				044F239028FF8B5600749FEA /* ContainerViewController.swift */,
 				044F239528FF8B5800749FEA /* Assets.xcassets */,
 				044F239728FF8B5800749FEA /* LaunchScreen.storyboard */,
 				044F239A28FF8B5800749FEA /* Info.plist */,
+				04E85638290097B9004C5D35 /* HomeViewController.swift */,
+				041A97052900ACBB003DC098 /* ButtomView.swift */,
+				04679DD02900C16400EE8C90 /* EarnViewController.swift */,
+				04679DD22900C17600EE8C90 /* InvestViewController.swift */,
+				04679DD42900C18500EE8C90 /* CardViewController.swift */,
 			);
 			path = ChipperHome;
+			sourceTree = "<group>";
+		};
+		04679DCD2900BDCB00EE8C90 /* UIKit+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04679DCE2900BDFA00EE8C90 /* Colors.swift */,
+			);
+			path = "UIKit+Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +150,6 @@
 			files = (
 				044F239928FF8B5800749FEA /* LaunchScreen.storyboard in Resources */,
 				044F239628FF8B5800749FEA /* Assets.xcassets in Resources */,
-				044F239428FF8B5600749FEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +160,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				044F239128FF8B5600749FEA /* ViewController.swift in Sources */,
+				041A97062900ACBB003DC098 /* ButtomView.swift in Sources */,
+				04679DCF2900BDFA00EE8C90 /* Colors.swift in Sources */,
+				044F239128FF8B5600749FEA /* ContainerViewController.swift in Sources */,
 				044F238D28FF8B5600749FEA /* AppDelegate.swift in Sources */,
-				044F238F28FF8B5600749FEA /* SceneDelegate.swift in Sources */,
+				04E85639290097B9004C5D35 /* HomeViewController.swift in Sources */,
+				04679DD52900C18500EE8C90 /* CardViewController.swift in Sources */,
+				04679DD32900C17600EE8C90 /* InvestViewController.swift in Sources */,
+				04679DD12900C16400EE8C90 /* EarnViewController.swift in Sources */,
+				041A970429009CA1003DC098 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		044F239228FF8B5600749FEA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				044F239328FF8B5600749FEA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		044F239728FF8B5800749FEA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +314,6 @@
 				INFOPLIST_FILE = ChipperHome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +325,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,7 +341,6 @@
 				INFOPLIST_FILE = ChipperHome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +352,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
