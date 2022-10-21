@@ -13,6 +13,11 @@
 		044F239128FF8B5600749FEA /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F239028FF8B5600749FEA /* ContainerViewController.swift */; };
 		044F239628FF8B5800749FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044F239528FF8B5800749FEA /* Assets.xcassets */; };
 		044F239928FF8B5800749FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044F239728FF8B5800749FEA /* LaunchScreen.storyboard */; };
+		045573812901EAB300B87A79 /* BarBButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045573802901EAB300B87A79 /* BarBButtonView.swift */; };
+		045573842901EBC500B87A79 /* TopOptionsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045573832901EBC500B87A79 /* TopOptionsViewCell.swift */; };
+		0455738629023A8600B87A79 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455738529023A8600B87A79 /* CardView.swift */; };
+		0455738929023ACA00B87A79 /* ItemsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455738829023ACA00B87A79 /* ItemsCollectionViewCell.swift */; };
+		0455738B29023AF000B87A79 /* TransactionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455738A29023AF000B87A79 /* TransactionViewCell.swift */; };
 		04679DCF2900BDFA00EE8C90 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04679DCE2900BDFA00EE8C90 /* Colors.swift */; };
 		04679DD12900C16400EE8C90 /* EarnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04679DD02900C16400EE8C90 /* EarnViewController.swift */; };
 		04679DD32900C17600EE8C90 /* InvestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04679DD22900C17600EE8C90 /* InvestViewController.swift */; };
@@ -29,6 +34,11 @@
 		044F239528FF8B5800749FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044F239828FF8B5800749FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		044F239A28FF8B5800749FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045573802901EAB300B87A79 /* BarBButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarBButtonView.swift; sourceTree = "<group>"; };
+		045573832901EBC500B87A79 /* TopOptionsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopOptionsViewCell.swift; sourceTree = "<group>"; };
+		0455738529023A8600B87A79 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0455738829023ACA00B87A79 /* ItemsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCollectionViewCell.swift; sourceTree = "<group>"; };
+		0455738A29023AF000B87A79 /* TransactionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewCell.swift; sourceTree = "<group>"; };
 		04679DCE2900BDFA00EE8C90 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		04679DD02900C16400EE8C90 /* EarnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnViewController.swift; sourceTree = "<group>"; };
 		04679DD22900C17600EE8C90 /* InvestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +76,9 @@
 		044F238B28FF8B5600749FEA /* ChipperHome */ = {
 			isa = PBXGroup;
 			children = (
+				0455738729023AB000B87A79 /* Cells */,
+				045573822901EB2F00B87A79 /* Controllers */,
+				0455737F2901EA4A00B87A79 /* CustomViews */,
 				04679DCD2900BDCB00EE8C90 /* UIKit+Extensions */,
 				041A970329009CA1003DC098 /* SceneDelegate.swift */,
 				044F238C28FF8B5600749FEA /* AppDelegate.swift */,
@@ -73,13 +86,39 @@
 				044F239528FF8B5800749FEA /* Assets.xcassets */,
 				044F239728FF8B5800749FEA /* LaunchScreen.storyboard */,
 				044F239A28FF8B5800749FEA /* Info.plist */,
-				04E85638290097B9004C5D35 /* HomeViewController.swift */,
+			);
+			path = ChipperHome;
+			sourceTree = "<group>";
+		};
+		0455737F2901EA4A00B87A79 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
 				041A97052900ACBB003DC098 /* ButtomView.swift */,
+				045573802901EAB300B87A79 /* BarBButtonView.swift */,
+				0455738529023A8600B87A79 /* CardView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		045573822901EB2F00B87A79 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04E85638290097B9004C5D35 /* HomeViewController.swift */,
 				04679DD02900C16400EE8C90 /* EarnViewController.swift */,
 				04679DD22900C17600EE8C90 /* InvestViewController.swift */,
 				04679DD42900C18500EE8C90 /* CardViewController.swift */,
 			);
-			path = ChipperHome;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0455738729023AB000B87A79 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0455738829023ACA00B87A79 /* ItemsCollectionViewCell.swift */,
+				045573832901EBC500B87A79 /* TopOptionsViewCell.swift */,
+				0455738A29023AF000B87A79 /* TransactionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		04679DCD2900BDCB00EE8C90 /* UIKit+Extensions */ = {
@@ -161,14 +200,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				041A97062900ACBB003DC098 /* ButtomView.swift in Sources */,
+				0455738B29023AF000B87A79 /* TransactionViewCell.swift in Sources */,
 				04679DCF2900BDFA00EE8C90 /* Colors.swift in Sources */,
 				044F239128FF8B5600749FEA /* ContainerViewController.swift in Sources */,
 				044F238D28FF8B5600749FEA /* AppDelegate.swift in Sources */,
 				04E85639290097B9004C5D35 /* HomeViewController.swift in Sources */,
 				04679DD52900C18500EE8C90 /* CardViewController.swift in Sources */,
+				045573842901EBC500B87A79 /* TopOptionsViewCell.swift in Sources */,
 				04679DD32900C17600EE8C90 /* InvestViewController.swift in Sources */,
+				0455738929023ACA00B87A79 /* ItemsCollectionViewCell.swift in Sources */,
 				04679DD12900C16400EE8C90 /* EarnViewController.swift in Sources */,
 				041A970429009CA1003DC098 /* SceneDelegate.swift in Sources */,
+				0455738629023A8600B87A79 /* CardView.swift in Sources */,
+				045573812901EAB300B87A79 /* BarBButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
