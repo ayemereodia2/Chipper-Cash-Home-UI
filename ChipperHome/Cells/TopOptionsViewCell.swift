@@ -63,6 +63,7 @@ class TopOptionsViewCell: UITableViewCell {
         stackView.addArrangedSubview(cardView)
         
         setupLayout()
+        sendSubviewToBack(contentView)
     }
     
     required init?(coder: NSCoder) {
@@ -92,7 +93,8 @@ class TopOptionsViewCell: UITableViewCell {
 extension TopOptionsViewCell {
     open override func addSubview(_ view: UIView) {
         super.addSubview(view)
-        sendSubviewToBack(contentView)
+        //contentView.backgroundColor = .green
+        //sendSubviewToBack(contentView)
     }
 }
 
